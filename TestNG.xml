@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="BrowserMobPOCSuite">
+
+<test name="FarEye Login">
+    <classes>
+      <class name="BrowserMobPOC.BrowserMobPOC.pages.FareyeLogin"/>
+    </classes>
+  </test> 
+ 
+  <test name="Google Search">
+    <classes>
+      <class name="BrowserMobPOC.BrowserMobPOC.pages.GoogleSearch"/>
+    </classes>
+  </test>
+ 
+</suite>

@@ -61,7 +61,8 @@ public class CaptureNetworkLogs {
 	
 		@AfterTest
 		public void tearDown() throws IOException {
-
+			
+			
 			Har har = proxy.getHar();
 			
 			java.io.StringWriter writer = new java.io.StringWriter();
@@ -71,6 +72,8 @@ public class CaptureNetworkLogs {
 			} catch (IOException ex) {
 				 System.out.println (ex.toString());
 			}
+			
+			System.out.println(this.getClass().getSimpleName());
 		
 			String harAsString = writer.toString();
 			

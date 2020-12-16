@@ -24,7 +24,7 @@ public class FareyeLogin extends CaptureNetworkLogs {
 		WebElement signinButton = driver.findElement(By.xpath("//button[@class='ant-btn button fe-btn login-submit ant-btn-primary']"));
 		signinButton.click();
 		
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 	}
 
 }
