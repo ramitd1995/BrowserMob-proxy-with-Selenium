@@ -1,0 +1,21 @@
+# Created at 2021-04-03T18:21:28.396
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2021-04-03T18:21:28.403
+Unexpected IOException: 5,1,BrowserMobPOC.BrowserMobPOC.pages.GoogleSearch,search(BrowserMobPOC.BrowserMobPOC.pages.GoogleSearch),BrowserMobPOC.BrowserMobPOC.pages.GoogleSearch,null,null
+
+
+# Created at 2021-04-03T18:21:28.403
+Unexpected IOException: 9,1,BrowserMobPOC.BrowserMobPOC.pages.GoogleSearch,search(BrowserMobPOC.BrowserMobPOC.pages.GoogleSearch),null,java.io.IOException: unexpected end of stream on Connection{localhost:21334\002C proxy=DIRECT hostAddress=localhost/127.0.0.1:21334 cipherSuite=none protocol=http/1.1}\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ramit-QA-2035ThinkPad-L14-Gen-1'\002C ip: '127.0.1.1'\002C os.name: 'Linux'\002C os.arch: 'amd64'\002C os.version: '5.8.0-48-generic'\002C java.version: '1.8.0_282'\000ADriver info: driver.version: ChromeDriver,null
+
+
+# Created at 2021-04-03T18:21:28.404
+Unexpected IOException: 9,1,BrowserMobPOC.BrowserMobPOC.pages.GoogleSearch,tearDown(BrowserMobPOC.BrowserMobPOC.pages.GoogleSearch),null,null,null
+
+
