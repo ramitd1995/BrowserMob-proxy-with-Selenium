@@ -43,6 +43,10 @@ public class CaptureNetworkLogs {
 		   
 		    DesiredCapabilities capabilities = new DesiredCapabilities();
 		    ChromeOptions options = new ChromeOptions();
+		    options.addArguments("--no-sandbox");
+		    options.addArguments("--headless"); //!!!should be enabled for Jenkins
+		    options.addArguments("--disable-dev-shm-usage"); //!!!should be enabled for Jenkins
+		    options.addArguments("--window-size=1920x1080"); //!!!should be enabled for Jenkins
 		    options.addArguments("--ignore-certificate-errors");
 		    capabilities.setCapability(CapabilityType.PROXY, seleniumProxy);
 		    capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS,true);

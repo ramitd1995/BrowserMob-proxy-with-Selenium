@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="BrowserMobPOCSuite" duration-ms="32010" started-at="2021-04-03T18:13:07 IST" finished-at="2021-04-03T18:13:39 IST">
+  <suite name="BrowserMobPOCSuite" duration-ms="28756" started-at="2021-04-03T18:47:35 IST" finished-at="2021-04-03T18:48:04 IST">
     <groups>
     </groups>
-    <test name="FarEye Login" duration-ms="19858" started-at="2021-04-03T18:13:07 IST" finished-at="2021-04-03T18:13:27 IST">
+    <test name="FarEye Login" duration-ms="18089" started-at="2021-04-03T18:47:35 IST" finished-at="2021-04-03T18:47:54 IST">
       <class name="BrowserMobPOC.BrowserMobPOC.pages.FareyeLogin">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:BrowserMobPOC.BrowserMobPOC.pages.FareyeLogin@458c1321]" name="setUp" is-config="true" duration-ms="2062" started-at="2021-04-03T18:13:07 IST" finished-at="2021-04-03T18:13:09 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:BrowserMobPOC.BrowserMobPOC.pages.FareyeLogin@458c1321]" name="setUp" is-config="true" duration-ms="1798" started-at="2021-04-03T18:47:35 IST" finished-at="2021-04-03T18:47:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login()[pri:0, instance:BrowserMobPOC.BrowserMobPOC.pages.FareyeLogin@458c1321]" name="login" duration-ms="14560" started-at="2021-04-03T18:13:09 IST" finished-at="2021-04-03T18:13:24 IST">
+        <test-method status="PASS" signature="login()[pri:0, instance:BrowserMobPOC.BrowserMobPOC.pages.FareyeLogin@458c1321]" name="login" duration-ms="13626" started-at="2021-04-03T18:47:37 IST" finished-at="2021-04-03T18:47:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:BrowserMobPOC.BrowserMobPOC.pages.FareyeLogin@458c1321]" name="tearDown" is-config="true" duration-ms="3199" started-at="2021-04-03T18:13:24 IST" finished-at="2021-04-03T18:13:27 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:BrowserMobPOC.BrowserMobPOC.pages.FareyeLogin@458c1321]" name="tearDown" is-config="true" duration-ms="2635" started-at="2021-04-03T18:47:51 IST" finished-at="2021-04-03T18:47:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- BrowserMobPOC.BrowserMobPOC.pages.FareyeLogin -->
     </test> <!-- FarEye Login -->
-    <test name="Google Search" duration-ms="12142" started-at="2021-04-03T18:13:27 IST" finished-at="2021-04-03T18:13:39 IST">
+    <test name="Google Search" duration-ms="10656" started-at="2021-04-03T18:47:54 IST" finished-at="2021-04-03T18:48:04 IST">
       <class name="BrowserMobPOC.BrowserMobPOC.pages.GoogleSearch">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:BrowserMobPOC.BrowserMobPOC.pages.GoogleSearch@3234e239]" name="setUp" is-config="true" duration-ms="524" started-at="2021-04-03T18:13:27 IST" finished-at="2021-04-03T18:13:27 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:BrowserMobPOC.BrowserMobPOC.pages.GoogleSearch@3234e239]" name="setUp" is-config="true" duration-ms="475" started-at="2021-04-03T18:47:54 IST" finished-at="2021-04-03T18:47:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="search()[pri:0, instance:BrowserMobPOC.BrowserMobPOC.pages.GoogleSearch@3234e239]" name="search" duration-ms="9305" started-at="2021-04-03T18:13:27 IST" finished-at="2021-04-03T18:13:37 IST">
+        <test-method status="PASS" signature="search()[pri:0, instance:BrowserMobPOC.BrowserMobPOC.pages.GoogleSearch@3234e239]" name="search" duration-ms="7935" started-at="2021-04-03T18:47:54 IST" finished-at="2021-04-03T18:48:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:BrowserMobPOC.BrowserMobPOC.pages.GoogleSearch@3234e239]" name="tearDown" is-config="true" duration-ms="2310" started-at="2021-04-03T18:13:37 IST" finished-at="2021-04-03T18:13:39 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:BrowserMobPOC.BrowserMobPOC.pages.GoogleSearch@3234e239]" name="tearDown" is-config="true" duration-ms="2244" started-at="2021-04-03T18:48:02 IST" finished-at="2021-04-03T18:48:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
