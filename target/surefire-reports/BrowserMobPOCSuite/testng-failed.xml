@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [BrowserMobPOCSuite]">
+  <test thread-count="2" verbose="0" name="FarEye Login(failed)">
+    <classes>
+      <class name="BrowserMobPOC.BrowserMobPOC.pages.FareyeLogin">
+        <methods>
+          <include name="setUp"/>
+          <include name="login"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- BrowserMobPOC.BrowserMobPOC.pages.FareyeLogin -->
+    </classes>
+  </test> <!-- FarEye Login(failed) -->
+</suite> <!-- Failed suite [BrowserMobPOCSuite] -->

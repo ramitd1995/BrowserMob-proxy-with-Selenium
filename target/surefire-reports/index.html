@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-BrowserMobPOCSuite">
-              <span class="suite-name border-passed">BrowserMobPOCSuite</span>
+              <span class="suite-name border-failed">BrowserMobPOCSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-BrowserMobPOCSuite" class="hide-methods failed suite-BrowserMobPOCSuite"> (hide)</a> <!-- hide-methods failed suite-BrowserMobPOCSuite -->
+                      <a href="#" panel-name="suite-BrowserMobPOCSuite" class="show-methods failed suite-BrowserMobPOCSuite"> (show)</a> <!-- show-methods failed suite-BrowserMobPOCSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-BrowserMobPOCSuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BrowserMobPOCSuite" title="BrowserMobPOC.BrowserMobPOC.pages.FareyeLogin" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-BrowserMobPOCSuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,11 +114,6 @@
                       <a href="#" panel-name="suite-BrowserMobPOCSuite" class="show-methods passed suite-BrowserMobPOCSuite"> (show)</a> <!-- show-methods passed suite-BrowserMobPOCSuite -->
                     </span>
                     <div class="method-list-content passed suite-BrowserMobPOCSuite">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-BrowserMobPOCSuite" title="BrowserMobPOC.BrowserMobPOC.pages.FareyeLogin" hash-for-method="login">login</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-BrowserMobPOCSuite" title="BrowserMobPOC.BrowserMobPOC.pages.GoogleSearch" hash-for-method="search">search</a> <!-- method navigator-link -->
@@ -122,6 +131,40 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-BrowserMobPOCSuite" class="panel BrowserMobPOCSuite">
+          <div class="suite-BrowserMobPOCSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">BrowserMobPOC.BrowserMobPOC.pages.FareyeLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=89.0.4389.114)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ramit-QA-2035ThinkPad-L14-Gen-1&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.8.0-50-generic&apos;, java.version: &apos;1.8.0_292&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.AZ2oEW}, goog:chromeOptions: {debuggerAddress: localhost:38129}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(manual, http=ramit-QA..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: af3bfca88874175dcc727ee4d96deaeb
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at BrowserMobPOC.BrowserMobPOC.pages.FareyeLogin.login(FareyeLogin.java:12)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BrowserMobPOCSuite-class-failed -->
           <div class="suite-BrowserMobPOCSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -133,21 +176,6 @@
                   <a name="search">
                   </a> <!-- search -->
                   <span class="method-name">search</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-BrowserMobPOCSuite-class-passed -->
-          <div class="suite-BrowserMobPOCSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">BrowserMobPOC.BrowserMobPOC.pages.FareyeLogin</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
-                  <span class="method-name">login</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -214,18 +242,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'login')
-data.setCell(0, 2, 'BrowserMobPOC.BrowserMobPOC.pages.FareyeLogin')
-data.setCell(0, 3, 17436);
+data.setCell(0, 1, 'search')
+data.setCell(0, 2, 'BrowserMobPOC.BrowserMobPOC.pages.GoogleSearch')
+data.setCell(0, 3, 8864);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'search')
-data.setCell(1, 2, 'BrowserMobPOC.BrowserMobPOC.pages.GoogleSearch')
-data.setCell(1, 3, 9295);
+data.setCell(1, 1, 'login')
+data.setCell(1, 2, 'BrowserMobPOC.BrowserMobPOC.pages.FareyeLogin')
+data.setCell(1, 3, 1491);
 window.suiteTableData['BrowserMobPOCSuite']= { tableData: data, tableDiv: 'times-div-BrowserMobPOCSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-BrowserMobPOCSuite">
               </div> <!-- times-div-BrowserMobPOCSuite -->
             </div> <!-- times-div -->
@@ -257,27 +285,29 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">login</span>
-                <span class="method-start">1530 ms</span>
+                <span class="method-start">1469 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">18970 ms</span>
+                <span class="method-start">2991 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">BrowserMobPOC.BrowserMobPOC.pages.GoogleSearch</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">21853 ms</span>
+                <span class="method-start">5409 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">search</span>
-                <span class="method-start">22302 ms</span>
+                <span class="method-start">5798 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">31598 ms</span>
+                <span class="method-start">14663 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

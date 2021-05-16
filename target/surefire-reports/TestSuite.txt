@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 34.131 s - in TestSuite
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.308 s <<< FAILURE! - in TestSuite
+login(BrowserMobPOC.BrowserMobPOC.pages.FareyeLogin)  Time elapsed: 1.518 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ramit-QA-2035ThinkPad-L14-Gen-1', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-50-generic', java.version: '1.8.0_292'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.AZ2oEW}, goog:chromeOptions: {debuggerAddress: localhost:38129}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(manual, http=ramit-QA..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: af3bfca88874175dcc727ee4d96deaeb
+	at BrowserMobPOC.BrowserMobPOC.pages.FareyeLogin.login(FareyeLogin.java:12)
+
