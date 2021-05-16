@@ -45,6 +45,8 @@ public class CaptureNetworkLogs {
 		    ChromeOptions options = new ChromeOptions();
 		    options.addArguments("--no-sandbox");
 		  //  options.addArguments("--headless"); 
+		    options.addArguments("--disable-extensions");
+		    options.addArguments("--disable-gpu");
 		    options.addArguments("--disable-dev-shm-usage"); //!!!should be enabled for Jenkins
 		    options.addArguments("--window-size=1920x1080"); //!!!should be enabled for Jenkins
 		    options.addArguments("--ignore-certificate-errors");

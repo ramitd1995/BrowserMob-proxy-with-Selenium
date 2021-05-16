@@ -1,8 +1,8 @@
 #surefire
-#Sun May 16 14:58:15 IST 2021
+#Sun May 16 15:10:00 IST 2021
 testng.configurator=org.apache.maven.surefire.testng.conf.TestNG60Configurator
 testng.test.classpath=/home/ramit/eclipse-workspace/BrowserMob-proxy-with-Selenium/target/test-classes
-pluginPid=315911
+pluginPid=329201
 classPathUrl.0=/home/ramit/eclipse-workspace/BrowserMob-proxy-with-Selenium/target/test-classes
 classPathUrl.1=/home/ramit/eclipse-workspace/BrowserMob-proxy-with-Selenium/target/classes
 classPathUrl.2=/home/ramit/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar
