@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BrowserMobPOCSuite" duration-ms="30147" started-at="2021-05-16T14:53:52 IST" finished-at="2021-05-16T14:54:22 IST">
+    <groups>
+    </groups>
+    <test name="FarEye Login" duration-ms="18872" started-at="2021-05-16T14:53:52 IST" finished-at="2021-05-16T14:54:11 IST">
+      <class name="BrowserMobPOC.BrowserMobPOC.pages.FareyeLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:BrowserMobPOC.BrowserMobPOC.pages.FareyeLogin@77caeb3e]" name="setUp" is-config="true" duration-ms="1249" started-at="2021-05-16T14:53:52 IST" finished-at="2021-05-16T14:53:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:BrowserMobPOC.BrowserMobPOC.pages.FareyeLogin@77caeb3e]" name="login" duration-ms="14889" started-at="2021-05-16T14:53:53 IST" finished-at="2021-05-16T14:54:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:BrowserMobPOC.BrowserMobPOC.pages.FareyeLogin@77caeb3e]" name="tearDown" is-config="true" duration-ms="2706" started-at="2021-05-16T14:54:08 IST" finished-at="2021-05-16T14:54:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BrowserMobPOC.BrowserMobPOC.pages.FareyeLogin -->
+    </test> <!-- FarEye Login -->
+    <test name="Google Search" duration-ms="11267" started-at="2021-05-16T14:54:11 IST" finished-at="2021-05-16T14:54:22 IST">
+      <class name="BrowserMobPOC.BrowserMobPOC.pages.GoogleSearch">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:BrowserMobPOC.BrowserMobPOC.pages.GoogleSearch@239963d8]" name="setUp" is-config="true" duration-ms="144" started-at="2021-05-16T14:54:11 IST" finished-at="2021-05-16T14:54:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="search()[pri:0, instance:BrowserMobPOC.BrowserMobPOC.pages.GoogleSearch@239963d8]" name="search" duration-ms="8733" started-at="2021-05-16T14:54:11 IST" finished-at="2021-05-16T14:54:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:BrowserMobPOC.BrowserMobPOC.pages.GoogleSearch@239963d8]" name="tearDown" is-config="true" duration-ms="2388" started-at="2021-05-16T14:54:20 IST" finished-at="2021-05-16T14:54:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BrowserMobPOC.BrowserMobPOC.pages.GoogleSearch -->
+    </test> <!-- Google Search -->
+  </suite> <!-- BrowserMobPOCSuite -->
+</testng-results>
